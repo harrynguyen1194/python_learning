@@ -8,8 +8,14 @@
 #     print(num[i])
 #     i =i+1
 
-lucky_number =[4,8,15,16,23,42]
-friend = ["Kevin","Karen","Jim","Oscar"]
-friend.append("Creed")
-friend.extend(lucky_number)
+lucky_number =[42,8,15,16,23,42]
+friend = ["Kevin","Karen","Jim","Jim","Oscar"]
+friend.append("Creed") #add creed to list#
+friend.extend(lucky_number) #add lucky list to friend#
+friend.insert(1,"Harry")
+friend.remove("Oscar")
+lucky_number.sort()
+print(lucky_number)
 print(friend)
+print(friend.index("Kevin"))
+print(friend.count("Jim"))
