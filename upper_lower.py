@@ -1,5 +1,8 @@
-phrase = "Hello world"
-print(phrase.upper())
-print(phrase.upper().isupper())
+num = -5
+print("Hello " + str(num))
+print( num)
 
-print(phrase[2])
+print(str(num) + "Hello")
+
+
+print(abs(num))
