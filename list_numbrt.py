@@ -14,6 +14,7 @@ friend.append("Creed") #add creed to list#
 friend.extend(lucky_number) #add lucky list to friend#
 friend.insert(1,"Harry")
 friend.remove("Oscar")
+friend.pop()
 lucky_number.sort()
 print(lucky_number)
 print(friend)
